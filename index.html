@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title> NSBE@ASU Website With Boostrap </title> <!-- Start of title -->
+
+    <!-- Linking the CSS file through Bootstrap CDN (public content delivery network: allows us to access the CSS files online through bootstrap) -->
+    <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" 
+    crossorigin="anonymous">
+
+    <!-- Linking the HTML File to the CSS FILE for formatting purposes -->
+    <link rel="stylesheet" type="text/css" href="NSBEsiteHome.css">
+
+    <!-- Adding Social Media Icon Library through CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </title> <!-- End of title -->
+
+
+</head> <!-- End of head -->
+<body> 
+
+  <!-- Adding the Navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="https://orgsync.com/11954/chapter">NSBE | ASU</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <!-- Creating the HOME selection for the MENU bar -->
+        <li class="nav-item active">
+          <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+        </li>
+        <!-- Creating the ABOUT selection for the MENU bar -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">ABOUT</a>
+        </li>
+        <!-- Creating the EVENTS selection for the MENU bar -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">EVENTS</a>
+        </li>
+        <!-- Creating the CONTACT selection for the MENU bar -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">CONTACT</a>
+        </li>
+        <!-- Creating the DONATE selection for the MENU bar -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">DONATE</a>
+        </li>
+        <!-- Creating a dropdown menu called MORE -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            MORE
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <!-- Creating the Menu List for the Drop Down Menu -->
+            <a class="dropdown-item" href="#">E-BOARD</a>
+            <a class="dropdown-item" href="#">CONFERENCES</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">COMMUNITY SERVICE</a>
+          </div>
+        </li>
+      </ul>
+      <!-- The Site's Search Engine -->
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </div>
+  </nav><!-- End of the Navigation Bar -->
+
+  <!-- Adding Home Page Cover Photo -->
+  <div>
+    <img style= "width:100%;" height="650" src="NSBE_Web_Cover.png" alt="NSBE Home Page Cover Photo">
+  </div>
+   
+  <!-- Creating the body of the HOME Page --> 
+  
+  <div class="NSBE Welcome Title">
+    <br><br><br> <!-- Creating space -->
+    <h1 align="center" class="header1">Welcome to NSBE!</h1>
+    <br> <!-- Creating space -->
+  </div>
+
+  <!-- Creating a Button Link --> 
+  <div class="container">
+    <div class="row justify-content-center">
+      <a href="https://orgsync.com/11954/chapter" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Become a Member</a>
+    </div>
+  </div>
+
+  <div class="NSBEdescription">
+    <br> <!-- Creating space -->
+    <!-- Creating the Paragraph Describing NSBE -->
+    <p class="bodyP">
+    With more than 500 chapters and nearly 16,000 active members in the U.S. and abroad, 
+    the National Society of Black Engineers (NSBE) is one of the largest
+    student-governed organizations based in the United States. 
+    NSBE, a 501(c)(3) nonprofit organization founded in 1975, supports and promotes the aspirations
+    of collegiate and pre-collegiate students and technical professionals in engineering and technology. NSBE&#39s mission is 
+    <i><b>"to increase the number of culturally responsible Black Engineers who excel academically, succeed professionally and 
+    positively impact the community."</b></i>
+    </p>
+    <p class="bodyP">
+    <br>
+    NSBE offers its members leadership training, professional development activities, mentoring, career placement services, community
+    service opportunities and more. NSBE comprises 515 active chapters &#45 288 collegiate, 82 professional and 145 pre-collegiate &#45 located
+    in six geographic regions. NSBE is governed by an executive board of college students and engineering professionals and is operated by
+    a professional staff at its World Headquarters, located in Alexandria, Va.
+    </p>
+    <p class="bodyP">
+    <br>
+    The NSBE Torch symbolizes the organization&#39s everlasting, burning desire to achieve success in this competitive society and to effect positive
+    change in the quality of life of all people. The same light that flows from the NSBE Torch to students and professionals in the United States is
+    also useful for NSBE members abroad. The goal of the Society is to replicate its mission and vision in countries around the world, creating a global
+    network of Black Engineers, scientists and technologists. NSBE has accomplished more for black engineering students than any other organization in the world.
+    </p>
+  </div>
+
+  <!-- Creating Social Media Icons Link -->
+  <div>
+  <br>
+  <img src="..." alt="Instagram Media Icon" class="rounded">
+  <img src="..." alt="Facebook Media Icon" class="rounded">
+  </div>
+
+  <!-- Linking the JavaScript file through Bootstrap CDN (public content delivery network: allows us to access the files online: located @ bottom of the body) -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+  crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" 
+  integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" 
+  integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+</body> <!-- End of body -->
+</html> <!-- End of html -->
